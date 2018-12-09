@@ -28,5 +28,13 @@ const strings = {
     "subtitle": "contacta me no discord para mais coisas sobre mim: Huffler#3288",
     "switchblade": "bot de merda pro discord que eu mantenho",
     "twitter": "merdas aleatorias que eu digo"
+  },
+  "pt-az": {
+    "page-title": "prr mas q mrd",
+    "og-title": "prr mas q mrd",
+    "title": "site d mrd p uma pessoa d mrd",
+    "subtitle": "manda msg no dc p sbrs mais sbr mim: Huffler#3288",
+    "switchblade": "bot d mrd q fiz",
+    "twitter": "mrds atoa q digo"
   }
 }
