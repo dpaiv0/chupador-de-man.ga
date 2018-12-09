@@ -2,17 +2,21 @@
 <html>
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>yo what the fuck</title>
-    <meta property="og:title" content="yo what the fuck" />
+    <title id="page-title">yo what the fuck</title>
+    <!-- START I18N -->
+    <script src="assets/js/i18n.js"></script>
+    <!-- STOP I18N -->
+    <meta property="og:title" id="og-title" content="yo what the fuck" />
     <meta property="og:url" content="https://chupador-de-man.ga" />
-    <meta property="og:image" content="https://safirevapes.co.uk/wp-content/uploads/2017/11/mango.jpg" />
+    <meta property="og:image" content="assets/img/mango.jpg" />
   </head>
-  <body>
+  <body onload="fetchLocale()">
     <center>
-      <h2>shit website for a shit person</h2>
-      <h3>contact me on discord for more stuff about me: Huffler#3288</h3><br><br>
-      <img width="40%" height="40%" src="https://safirevapes.co.uk/wp-content/uploads/2017/11/mango.jpg"></img><br>
-      <p><a href="https://switchblade.xyz">shit discord bot i maintain</a> <a href="https://twitter.com/pillgp">random shit i say</a></p>
+      <h2 id="title"></h2>
+      <h3 id="subtitle"></h3><br><br>
+      <img width="40%" height="40%" src="assets/img/mango.jpg"></img><br>
+      <p><a id="switchblade" href="https://switchblade.xyz">shit discord bot i maintain</a> | <a id="twitter" href="https://twitter.com/pillgp">random shit i say</a></p><br><br>
+      <a href="#" onclick="fetchLocale('en')">EN</a> | <a href="#" onclick="fetchLocale('pt')">PT</a>
     </center>
   </body>
 </html>
